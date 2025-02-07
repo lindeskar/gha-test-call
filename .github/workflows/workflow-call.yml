@@ -11,3 +11,5 @@ on:
 jobs:
   wf:
     uses: lindeskar/gha-test/.github/workflows/workflow.yml@main
+    with:
+      action-version: "a84b62ea892599a58fb8deb3bfebd0bdfca4685f"

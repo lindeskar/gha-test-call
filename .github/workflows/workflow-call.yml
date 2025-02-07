@@ -2,11 +2,11 @@ name: "Workflow call"
 on:
   pull_request:
     branches:
-      - master
+      - main
   push:
     branches:
-      - master
+      - main
 
 jobs:
   wf:
-    uses: lindeskar/gha-test/.github/workflows/workflow.yml@master
+    uses: lindeskar/gha-test/.github/workflows/workflow.yml@main
